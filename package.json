@@ -1,0 +1,30 @@
+{
+  "name": "api_tests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "defaultTest": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
+    "test-debug": "jest"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.[t|j]sx?$": "babel-jest"
+    },
+    "testTimeout": 60000
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/preset-env": "^7.23.5",
+    "babel-jest": "^29.7.0",
+    "jest": "^29.7.0"
+  },
+  "dependencies": {
+    "axios": "^1.6.2",
+    "debug": "^4.3.4",
+    "log4js": "^6.9.1"
+  }
+}
