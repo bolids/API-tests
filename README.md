@@ -2,18 +2,18 @@
 
 ## API_TESTS PROJECT SETUP
 1. Create new folder for API_tests project on the PC
-1. Open this folder in VC Code
-1. Check installed versions of the
+2. Open this folder in VC Code
+3. Check installed versions of the
 
     3.1 node:
    
     `node -v` 
 
-    3.1 npm:
+    3.2 npm:
    
     `npm -version`
 
-1. Setup environment. Install dependencies (jest, babel, log4j, axios):
+4. Setup environment. Install dependencies (jest, babel, log4j, axios):
 
 	4.1 Open terminal in VS Code.
 
@@ -25,9 +25,7 @@
 
    	`npm install --save-dev jest`
 
-	4.4 Open file package.json
-
-	4.4.1 Change field "scripts", set command jest for run:
+	4.4 Open file package.json. Change field "scripts", set command jest for run:
    
 	`"scripts": {
 		"test": "jest"
